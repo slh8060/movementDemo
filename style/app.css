@@ -1,0 +1,208 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+li,
+dd,
+dt,
+dl {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 0.28rem;
+  font-family: 'Heiti SC', 'Microsoft YaHei';
+  background: #efeff4;
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.header {
+  position: relative;
+  text-align: center;
+  height: 0.84rem;
+  line-height: 0.84rem;
+  background: #fff;
+}
+.header .backword-wrap {
+  position: absolute;
+  left: 13px;
+  top: 0;
+  font-size: 0.28rem;
+}
+.header .backword-wrap .backword {
+  padding: 0 0.4rem;
+  background: url("../images/rt-bk.png") no-repeat left center;
+}
+.header .title {
+  font-size: 0.32rem;
+}
+.section {
+  padding-top: 0.29rem;
+  display: none;
+}
+.section .head {
+  background: url("../images/head_bg.png") no-repeat center;
+  height: 2.2rem;
+}
+.section .head .user-photo {
+  width: 30%;
+  text-align: right;
+  float: left;
+  padding-top: 0.37rem;
+}
+.section .head .user-photo img {
+  width: 1.43rem;
+  height: 1.43rem;
+}
+.section .head .user-info {
+  width: 60%;
+  text-align: left;
+  float: left;
+  padding: 0.6rem 0.2rem;
+  color: #fff;
+}
+.section .head .user-info p {
+  padding: 0.1rem;
+}
+.section .nav {
+  margin: 0.26rem 0;
+  background: #fff;
+  height: 0.72rem;
+  color: #000;
+}
+.section .nav ul li {
+  float: left;
+  width: 33%;
+  height: 0.55rem;
+  margin: 0.085rem 0;
+  text-align: center;
+  position: relative;
+}
+.section .nav ul li a {
+  color: #000;
+  text-decoration: none;
+  position: absolute;
+  right: 0.56rem;
+  top: 0.20rem;
+}
+.section .nav ul li img {
+  position: absolute;
+  top: 0.12rem;
+  left: 0.72rem;
+}
+.section .nav ul li .indent-img {
+  width: 0.28rem;
+  height: 0.36rem;
+}
+.section .nav ul li .clt-img {
+  width: 0.39rem;
+  height: 0.35rem;
+}
+.section .nav ul li .rcm-img {
+  width: 0.37rem;
+  height: 0.35rem;
+}
+.section .nav ul li:nth-child(2) {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.section .content .part {
+  margin-top: 0.23rem;
+  color: #838383;
+  padding-left: 0.2rem;
+  background: #fff;
+}
+.section .content .part .divide {
+  border-bottom: 1px solid #e5e5e5;
+}
+.section .content .part .con-tip {
+  color: #838383;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  padding: 0.2rem 0.2rem 0.2rem 0.4rem;
+}
+.section .content .part .arr-right {
+  width: 0.14rem;
+  height: 0.24rem;
+  position: absolute;
+  right: 0.2rem;
+}
+.section .content .part .check-on {
+  width: 0.85rem;
+  height: 0.58rem;
+  top: 0.12rem;
+}
+.footer {
+  width: 100%;
+  height: 1.18rem;
+  position: fixed;
+  bottom: 0;
+  background: url("../images/projection.png") repeat-x;
+}
+.footer .footer-menu {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding-top: 0.2rem;
+  cursor: pointer;
+  display: inline-block;
+}
+.footer .footer-menu img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.footer .footer-menu p {
+  color: #656565;
+  text-decoration: none;
+}
+section.active {
+  display: block;
+}
+/*.footer {
+    width: 100%;
+    height: 1.18rem;
+    position: fixed;
+    bottom: 0;
+    background:  url("../images/projection.png") repeat-x;
+    ul {
+        li {
+            width: 25%;
+            float: left;
+            text-align: center;
+            padding-top: 0.2rem;
+            img {
+                width: 0.5rem;
+                height: 0.5rem;
+            }
+            a {
+                display: block;
+                color: #656565;
+                text-decoration: none;
+            }
+        }
+    }
+}*/
