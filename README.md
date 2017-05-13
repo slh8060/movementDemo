@@ -40,7 +40,8 @@ http://www.cnblogs.com/lyzg/p/4877277.html#_label2
   像素比(dpi)为2时，大约4个物理像素来显示一个CSS像素;
   设备像素值越高，每英寸显示的像素数越多。
   
-  http://github.com/slh8060/movementDemo/raw/master/images/11.png
+  ![Alt text](http://github.com/slh8060/movementDemo/raw/master/images/11.png)
+  
   
   
   
