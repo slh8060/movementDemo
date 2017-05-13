@@ -6,9 +6,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
-    
-    
-    
+
+
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0">     
          width:可视区域的宽度，值可为数字或关键词device-width；
          height:同width；
